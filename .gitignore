@@ -5,5 +5,6 @@ foo.txt
 *.xml
 # foo.html是手工维护的，所以例外.
 !foo.html
+!README.md
 #  忽略所有.o 和 .a文件.
 *.[oa]
