@@ -1,40 +1,40 @@
 #person{
-  height:100px;
-  width: 55px;
-  position:absolute;
-  top:-150px;
-  background: url("../image/walk.png");
+  position: absolute;
   z-index: 100;
-  left:50px;
-
-  -webkit-animation-name:walking;
-  -webkit-animation-duration: 300ms;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: steps(1,start);
-  -moz-animation-name:walking;
+  top: -150px;
+  left: 50px;
+  height: 100px;
+  width: 55px;
+  background-image: url("../image/walk.png");
+  /*人物的 图案 时间 图案循环 帧*/
+  -moz-animation-name: walking;
   -moz-animation-duration: 300ms;
   -moz-animation-iteration-count: infinite;
   -moz-animation-timing-function: steps(1,start);
-
+  -webkit-animation-name: walking;
+  -webkit-animation-duration: 300ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: steps(1,start);
+  /*人物移动*/
   transition: left 5s ease-in;
-  -webkit-transition: left 5s ease-in;
   -moz-transition: left 5s ease-in;
+  -webkit-transition: left 5s ease-in;
   -o-transition: left 5s ease-in;
 
 }
-
-
+  /*图的位置 切换*/
 @-webkit-keyframes walking {
   0%{
-    background-position: 0 0 ;
+    background-position: 0 0;
   }
   50%{
-    background-position: 55.5px 0 ;
+    background-position: 55.5px 0;
   }
   100%{
-    background-position: 0 0 ;
+    background-position: 0 0;
   }
 }
+
 @-moz-keyframes walking {
   0% {
     background-position: 0 0;
@@ -47,33 +47,34 @@
   }
 }
 
-
+/*"马路"移动*/
 #personRoad{
   position: absolute;
-  bottom:20px;
-
+  bottom: 20px;
 }
+
 .road{
   position: absolute;
-  height:3px;
-  width:90px;
-  background: black;
   z-index: 99;
-
+  height: 3px;
+  width: 90px;
+  background: black;
 }
+
 #topRoad{
-  top:-70px;
+  top: -70px;
 
   transition: width 4.8s ease-in;
-  -webkit-transition: width 4.8s ease-in;
   -moz-transition: width 4.8s ease-in;
+  -webkit-transition: width 4.8s ease-in;
   -o-transition: width 4.8s ease-in;
 }
+
 #bottomRoad{
-  top:-50px;
+  top: -50px;
 
   transition: width 4.8s ease-in;
-  -webkit-transition: width 4.8s ease-in;
   -moz-transition: width 4.8s ease-in;
+  -webkit-transition: width 4.8s ease-in;
   -o-transition: width 4.8s ease-in;
 }

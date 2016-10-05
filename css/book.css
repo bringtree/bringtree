@@ -1,72 +1,74 @@
 #book{
-  margin:0 auto;
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
   padding-top: 20px;
-  /*background-color: pink;*/
-  width:1200px;
-  height:800px;
   overflow: hidden;
+  /*电脑屏幕人看电脑内的距离5000px 还有书的位置*/
   -webkit-perspective: 5000px;
   -webkit-perspective-origin: 100% 50%;
   -webkit-transform-style: preserve-3d;
 }
 
 .page{
-  /*margin:auto;*/
-  margin: 0px;
-  top: 30px;right: 270px;bottom: 0;
-  width:420.24px;
+  position: absolute;
+  top: 30px;
+  right: 270px;
+  bottom: 0;
+  width: 420.24px;
   height: 680px;
-  position:absolute;
-  border-radius:0 30px 30px 0;
-  border:2px solid black;
-
-  box-shadow:0 5px 10px #666;
-  -webkit-box-shadow:0 5px 10px #666;
-  -moz-box-shadow:0 5px 10px #666;
-
-  transform-origin:left ;
-  -o-transform-origin:left;
-  -moz-transform-origin:left;
-  -ms-transform-origin:left;
-  -webkit-transform-origin:left;
-
-  transition:transition 1s linear ;
-  -o-transition: -o-transform 1s linear;
+  margin: 0;
+  border-radius: 0 30px 30px 0;
+  border: 2px solid black;
+  /*书的背景阴影*/
+  box-shadow: 0 5px 10px #666;
+  -moz-box-shadow: 0 5px 10px #666;
+  -webkit-box-shadow: 0 5px 10px #666;
+  /*以书的哪里作为翻动的轴*/
+  transform-origin: left;
+  -moz-transform-origin: left;
+  -webkit-transform-origin: left;
+  -o-transform-origin: left;
+  -ms-transform-origin: left;
+  /*翻动的时间 还有类型*/
+  transition: transition 1s linear ;
   -moz-transition: -moz-transform 1s linear;
-  -ms-transition: -ms-transform 1s linear;
   -webkit-transition: -webkit-transform 1s linear;
+  -o-transition: -o-transform 1s linear;
 }
 
 #page1{
-  text-align:center;
-  font-size:200px;
-  line-height: 1.6;
   z-index: -1;
-  opacity:1;
+  text-align: center;
+  font-size: 200px;
+  line-height: 1.6;
+  opacity: 1;
 }
+
 #page2{
-  /*background:green;*/
-
   z-index: -2;
-  opacity:0.05;
+  opacity: .05;
 }
-#page3{
-  /*background:yellow;*/
 
+#page3{
   z-index: -3;
-  opacity: 0.05;
+  opacity: .05;
 }
 
 #skillTree{
   width: 380px;
   height: 556px;
-  background:url("../image/skill.png") no-repeat;
   background-position: center;
+  background: url("../image/skill.png") no-repeat;
 }
 
 #page4{
-  /*background:white;*/
   z-index: -4;
-  opacity:0.05;
+  opacity: .05;
 }
 
+#sayAsk{
+  position: absolute;
+  top: 670px;
+  left: 950px;
+}
