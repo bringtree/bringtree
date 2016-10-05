@@ -1,0 +1,79 @@
+#person{
+  height:100px;
+  width: 55px;
+  position:absolute;
+  top:-150px;
+  background: url("../image/walk.png");
+  z-index: 100;
+  left:50px;
+
+  -webkit-animation-name:walking;
+  -webkit-animation-duration: 300ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: steps(1,start);
+  -moz-animation-name:walking;
+  -moz-animation-duration: 300ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: steps(1,start);
+
+  transition: left 5s ease-in;
+  -webkit-transition: left 5s ease-in;
+  -moz-transition: left 5s ease-in;
+  -o-transition: left 5s ease-in;
+
+}
+
+
+@-webkit-keyframes walking {
+  0%{
+    background-position: 0 0 ;
+  }
+  50%{
+    background-position: 55.5px 0 ;
+  }
+  100%{
+    background-position: 0 0 ;
+  }
+}
+@-moz-keyframes walking {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 55.5px 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+
+#personRoad{
+  position: absolute;
+  bottom:20px;
+
+}
+.road{
+  position: absolute;
+  height:3px;
+  width:90px;
+  background: black;
+  z-index: 99;
+
+}
+#topRoad{
+  top:-70px;
+
+  transition: width 4.8s ease-in;
+  -webkit-transition: width 4.8s ease-in;
+  -moz-transition: width 4.8s ease-in;
+  -o-transition: width 4.8s ease-in;
+}
+#bottomRoad{
+  top:-50px;
+
+  transition: width 4.8s ease-in;
+  -webkit-transition: width 4.8s ease-in;
+  -moz-transition: width 4.8s ease-in;
+  -o-transition: width 4.8s ease-in;
+}

@@ -4,34 +4,73 @@
   <meta charset="UTF-8">
   <title>Resume</title>
 </head>
-<link rel="stylesheet" href="book.css">
-<link rel="stylesheet" href="switch.css">
-<script src="switchPage.js"></script>
+<link rel="stylesheet" href="css/book.css">
+<link rel="stylesheet" href="css/switch.css">
+<link rel="stylesheet" href="css/person.css">
+<link rel="stylesheet" href="css/table.css">
+<script src="JavaScript/switchPage.js"></script>
+<script src="JavaScript/person.js"></script>
 
 <body>
 <div id="book">
-  <div class="page" id="page1">1</div>
-  <div class="page" id="page2">2</div>
-  <div class="page" id="page3">3</div>
-  <div class="page" id="page4">4
-    <div class="switch" id="next">
-      <a href="javascript:next()">下一页
+  <div class="page" id="page1">简<br/>历</div>
+  <div class="page" id="page2">
+  <div style=" margin-top: 90px;margin-left:5px;">
+    <table>
+      <tr>
+        <th>属性</th><th>数值</th>
+      </tr>
+      <tr>
+        <td>学院</td><td>数学与信息学院</td>
+      </tr>
+      <tr>
+        <td>年级班级</td><td>2016计算机科学与技术</td>
+      </tr>
+      <tr>
+        <td>姓名</td><td>黄培松</td>
+      </tr>
+      <tr>
+        <td>性别</td><td>男</td>
+      </tr>
+      <tr>
+        <td>email</td><td><a href="mailto:huangpeison@gmail.com?subject= 简历" style="color:blue;">huangpeison@gmail.com</a></td>
+      </tr>
+      <tr>
+        <td>联系电话</td><td>13433835659</td>
+      </tr>
+      <tr>
+        <td>通讯地址</td><td>广东省华南农业大学泰山宿舍8301</td>
+      </tr>
+    </table>
+  </div>
+  </div>
+  <div class="page" id="page3"><div id="skillTree"></div></div>
+  <div class="page" id="page4"><></div>
+  <div class="page" id="page5">
+    <div class="switch" id="next" style="opacity: 1">
+      <a href="javascript:next() ">下一页
         <span class="line line-top"></span>
         <span class="line line-bottom"></span>
 
       </a>
     </div>
     <div class="switch" id="back">
-      <a href="javascript:back()">上一页
+      <a href="javascript:back()" >上一页
         <span class="line line-top"></span>
         <span class="line line-bottom"></span>
 
       </a>
     </div>
   </div>
+  <div id="personRoad">
+    <div id="person"></div>
+    <span class="road" id="topRoad"></span>
+    <span class="road" id="bottomRoad"></span>
+  </div>
+
+
 
 </div>
-
 
 </body>
 </html>
