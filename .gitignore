@@ -3,6 +3,8 @@
 foo.txt
 # 忽略所有生成的 html 文件,
 *.xml
+*.iml
+.idea
 # foo.html是手工维护的，所以例外.
 !foo.html
 !README.md
