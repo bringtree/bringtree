@@ -24,10 +24,10 @@ window.onload = function () {
       person.style.transition = 'top 2s ease-in';
       document.getElementById("ask").innerHTML = "<a href=\"mailto:huangpeison@gmail.com\">HELP ME！</a>"
     },500);
-  }
+  };
   //监听人什么时候可以掉坑
   topRoad.addEventListener("webkitTransitionEnd", hole, false);
   topRoad.addEventListener("oTransitionEnd", hole, false);
 
 
-}
+};

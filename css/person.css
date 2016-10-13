@@ -6,6 +6,7 @@
   height: 100px;
   width: 55px;
   background-image: url("../image/walk.png");
+
   /*人物的 图案 时间 图案循环 帧*/
   -moz-animation-name: walking;
   -moz-animation-duration: 300ms;
@@ -15,20 +16,21 @@
   -webkit-animation-duration: 300ms;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: steps(1,start);
+
   /*人物移动*/
   transition: left 5s ease-in;
   -moz-transition: left 5s ease-in;
   -webkit-transition: left 5s ease-in;
   -o-transition: left 5s ease-in;
-
 }
+
   /*图的位置 切换*/
 @-webkit-keyframes walking {
   0%{
     background-position: 0 0;
   }
   50%{
-    background-position: 55.5px 0;
+    background-position: 55px 0;
   }
   100%{
     background-position: 0 0;
@@ -40,7 +42,7 @@
     background-position: 0 0;
   }
   50% {
-    background-position: 55.5px 0;
+    background-position: 55px 0;
   }
   100% {
     background-position: 0 0;

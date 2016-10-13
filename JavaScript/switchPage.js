@@ -45,7 +45,7 @@ function type() {
     this.sayThank = saythank;
     this.version = version;
     this.github = github;
-  }
+  };
   var huangpeisong = new data("end <br /> 谢谢观看","v2.1beta","<a href='https://github.com/bringtree'>https://github.com/bringtree</a>");
   if(num==4) {
     var words;
