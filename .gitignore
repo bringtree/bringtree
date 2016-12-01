@@ -1,12 +1,13 @@
 # 以'#' 开始的行，被视为注释.
 # 忽略掉所有文件名是 foo.txt 的文件.
 foo.txt
+.idea
 # 忽略所有生成的 html 文件,
 *.xml
 *.iml
-.idea
 # foo.html是手工维护的，所以例外.
 !foo.html
 !README.md
 #  忽略所有.o 和 .a文件.
 *.[oa]
+1副本.jpg
