@@ -10,4 +10,4 @@ foo.txt
 !README.md
 #  忽略所有.o 和 .a文件.
 *.[oa]
-1副本.jpg
+
