@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{{ article.title }}
+<br>
+{{ article.content }}
+<br>
+<a href="{% url 'blog:edit_page' article.id %}">add</a>
+</body>
+</html>
