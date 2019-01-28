@@ -5,7 +5,7 @@
 - github: bringtree的github / 记录了平时遇到的一些问题的博客
 - 研究方向：人机对话(词向量修正,意图分类,对话管理)
 - 常用编程语言: py/js/cpp
-- 邮箱 bringtree@qq.com
+- 邮箱: bringtree@qq.com
 
 学习/工作情况
 
