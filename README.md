@@ -2,7 +2,7 @@
 
 - 姓名: 黄培松
 - 性别: 男
-- github: bringtree的github / 记录了平时遇到的一些问题的博客
+- github: [bringtree的github / 记录了平时遇到的一些问题的博客](https://github.com/bringtree/question_embedding/issues)
 - 研究方向：人机对话(词向量修正,意图分类,对话管理)
 - 常用编程语言: py/js/cpp
 - 邮箱: bringtree@qq.com
@@ -21,7 +21,7 @@
 
 项目经历
 
-- 2018.12-现在: 目前在CVTE中央研究院 计划在年前优化完线上问答机器人(微信公众号:希沃学院)的性能(主要是:用户反馈的解决率).主要是在做句子相似度比较.目前使用decomposable_attention网络.
+- 2018.12-现在: 目前在CVTE中央研究院 计划在月底前优化完线上问答机器人(微信公众号:希沃学院)的性能(主要是:用户反馈的解决率).主要是在做检索式的问答匹配.目前已将模型的top3从0.46提升到 0.76.
 - 2018.11-2018.12: 在CVTE中央研究院 根据文本描述(内容是描述工作计划, 标签是(合格/不合格),)做二分类任务, 将文本的fn(即合格被误判成不合格) 降低到符合上线的要求. 减轻了人事部门的被投诉的次数(因为如果合格误判成不合格 会被投诉). 主要做法是:设置分类的阀值,修改最后一层softmax的改为
 <img src="http://latex.codecogs.com/gif.latex?y_{i} = softmax(x-u_{i} , u_{i}) " />,其中x是上一层的输入,
 <img src="http://latex.codecogs.com/gif.latex?u_{i}" />是全连接对应类别的向量.
