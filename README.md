@@ -3,7 +3,7 @@
 - 姓名: 黄培松
 - 性别: 男
 - github: [bringtree的github / 记录了平时遇到的一些问题的博客](https://github.com/bringtree/question_embedding/issues)
-- 研究方向：人机对话
+- 研究方向：人机对话(任务型对话系统|检索型对话系统)
 - 常用编程语言: py/js/cpp
 - 邮箱: bringtree@qq.com
 - 电话: 13433835659
