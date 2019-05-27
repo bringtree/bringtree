@@ -4,7 +4,8 @@
 - 性别: 男
 - github: [bringtree的github / 记录了平时遇到的一些问题的博客](https://github.com/bringtree/question_embedding/issues)
 - 常用编程语言: py|js|cpp
-- 邮箱: bringtree@qq.com电话: 13433835659
+- 邮箱: bringtree@qq.com
+- 电话: 13433835659
 - 学历: 华南农业大学-本科生(计算机科学与技术) 大三
 
 擅长领域： 
