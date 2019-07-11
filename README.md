@@ -21,8 +21,8 @@
 
 论文经历
 
-- Interspeech 2019 oral  (一作，17号刚刚收到录用的消息) 提出另⼀种将主题模型(btm)和神经⽹络结合的方式来提高分类指标的方式
-- CCL 2018 基于可靠词汇语义约束的词语向量表达修正研究(论文第三作者，将第一作者的想法转换为代码实现，论文被CCL录用(CCL-18-066)。) 主要思路:是借助外在的词典来解决词向量同义词和反义词在维度上比较相似的问题.
+- **Peisong Huang**, Peijie Huang, Wencheng Ai, et al. Latent Topic Attention for Domain Classification. Proceedings of the 20th Annual Conference of the International Speech Communication Association (INTERSPEECH 2019), 2019, to appear, oral.
+- 梁泳诗, 黄沛杰, **黄培松**, 等.基于可靠词汇语义约束的词语向量表达修正研究. 中文信息学报, 2019, 33(1):58-69.  主要思路:是借助外在的词典来解决词向量同义词和反义词在维度上比较相似的问题.
 (期间曾将估计计算量>1个月的代码优化到<1天):1.使用pyflame分析耗时长的地方,优化做缓存;2.将代码改为多进程;3.将代码的余弦计算改成可以用numpy大批量计算;4另外为做分析时能够随机调用词向量出来查看,利用grpc写了快速取词向量出来的脚本(将每次需要查看个词向量都需要预加载好几分钟的时间压缩的几秒).
 
 比赛经历:
