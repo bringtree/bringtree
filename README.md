@@ -5,12 +5,8 @@
 - github: [bringtree的github / 记录了平时遇到的一些问题的博客](https://github.com/bringtree/question_embedding/issues)
 - 常用编程语言: py|js|cpp
 - 邮箱: bringtree@qq.com
-- 电话: 13433835659
-- 学历: 华南农业大学-本科生(计算机科学与技术) 大三
-
-擅长领域： 
-
-- 短文本分类(意图|领域|新闻标题分类), 词向量后修正(同义反义问题,一词多义问题)。
+- 电话: 15813318311
+- 学历: 华南农业大学-本科生(计算机科学与技术)  2020.7毕业.
 
 学习/工作情况:
 
@@ -21,9 +17,9 @@
 
 论文经历
 
-- **Peisong Huang**, Peijie Huang, Wencheng Ai, et al. Latent Topic Attention for Domain Classification. Proceedings of the 20th Annual Conference of the International Speech Communication Association (INTERSPEECH 2019), 2019, to appear, oral.
+- **Peisong Huang**, Peijie Huang, Wencheng Ai, et al. Latent Topic Attention for Domain Classification. Proceedings of the 20th Annual Conference of the International Speech Communication Association (INTERSPEECH 2019), 2019, to appear, oral.(已经收到中了的通知)
+- **黄培松**, 黄沛杰, 丁健德, 等. 基于隐含主题协同注意力网络的领域分类方法. 中文信息学报 (已经收到中了的通知)
 - 梁泳诗, 黄沛杰, **黄培松**, 等.基于可靠词汇语义约束的词语向量表达修正研究. 中文信息学报, 2019, 33(1):58-69.  主要思路:是借助外在的词典来解决词向量同义词和反义词在维度上比较相似的问题.
-(期间曾将估计计算量>1个月的代码优化到<1天):1.使用pyflame分析耗时长的地方,优化做缓存;2.将代码改为多进程;3.将代码的余弦计算改成可以用numpy大批量计算;4另外为做分析时能够随机调用词向量出来查看,利用grpc写了快速取词向量出来的脚本(将每次需要查看个词向量都需要预加载好几分钟的时间压缩的几秒).
 
 比赛经历:
 
@@ -33,9 +29,10 @@
 工作经历:
 
 - 在网易有道:
-	-  在网易有道,做从HDFS上导出语音日志的筛选分析工作。并打算将预处理和模型预测移植到hadoop上处理
-	-  在网易有道,做类似overlap的分类任务，同时在kaldi上复现 SpecAugment 的结果, 期间修复了kaldi 一个bug https://github.com/kaldi-asr/kaldi/pull/3304
-
+	-  在网易有道,做类似overlap的分类任务（三分类），同时在kaldi上复现 SpecAugment (远远早于kaldi官方公开的时间,另外实现方式也和kaldi公开的方式不同), 期间修复了kaldi 的一些:bug https://github.com/kaldi-asr/kaldi/pull/3304 https://github.com/kaldi-asr/kaldi/pull/3341
+	-  在网易有道,做从HDFS上导出语音日志的筛选分析工作。在hadoop上完成数据的统计,并提取出一些数据在线下使用kaldi训练.评估数据质量。
+-  用无监督方法来提取新闻(很长的文本) 的一些关键字,并对常见attention模型在长文本分类上的attention稳定性做了一些实验.
+	
 - 在CVTE中央研究院:
 	- 使用srcapy-redis爬取百度相似问答对来构造闲聊语料库。并用修改全连接层softmax和分类的阈值的方法改进用于人事部门的一个二分类模型的召回率。
 	- 优化完线上问答机器人(微信公众号:希沃学院)的性能(主要是:用户反馈的解决率).主要是在做检索式的问答匹配.由于数据类别极多,极其不均匀.而且这个任务是个度量问题(其实是当做分类问题来做的时候 效果极差)，于是将模型转化成一个聚类模型，其中特征抽取用深度模型    (dynamic_w2c+cnn+lstm+attention)来做。目前已将模型的top3从0.46提升到 0.76,同时有能保证较快的运算时间.
