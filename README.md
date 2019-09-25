@@ -28,7 +28,7 @@
 
 工作经历:
 
-- 在网易有道(kaldi,rasa,hadoop): 
+- 在网易有道(kaldi,rasa,hadoop-streaming): 
 	-  在网易有道,做类似overlap的分类任务（三分类），同时在kaldi上复现 SpecAugment (远远早于kaldi官方公开的时间,另外实现方式也和kaldi公开的方式不同), 期间修复了kaldi 的一些:bug https://github.com/kaldi-asr/kaldi/pull/3304 https://github.com/kaldi-asr/kaldi/pull/3341。 针对kaldi格式开发一些可视化工具。
 	-  在网易有道,做从HDFS上导出语音日志的筛选分析工作。在hadoop上完成数据的统计,并提取出一些数据在线下使用kaldi训练.评估数据质量。
 	-  用无监督方法来提取新闻(很长的文本) 的一些关键字,并做了一些实体去重的工作,并对常见attention模型在长文本分类上的attention稳定性做了一些实验.
