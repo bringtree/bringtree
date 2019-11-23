@@ -17,6 +17,7 @@
 
 论文经历
 
+- **Peisong Huang**, Peijie Huang, Shuo Qiu et al. ROBUST SPOKEN LANGUAGE UNDERSTANDING USING ASR LATTICE TO PRE-TRAIN WITH BERT (投ICASSP 2020中)
 - **Peisong Huang**, Peijie Huang, Wencheng Ai, et al. Latent Topic Attention for Domain Classification. Proceedings of the 20th Annual Conference of the International Speech Communication Association (INTERSPEECH 2019), 2019,  oral.
 - **黄培松**, 黄沛杰, 丁健德, 等. 基于隐含主题协同注意力网络的领域分类方法. 中文信息学报
 - 梁泳诗, 黄沛杰, **黄培松**, 等.基于可靠词汇语义约束的词语向量表达修正研究. 中文信息学报, 2019, 33(1):58-69.  主要思路:是借助外在的词典来解决词向量同义词和反义词在维度上比较相似的问题.
