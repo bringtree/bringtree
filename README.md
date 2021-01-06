@@ -11,13 +11,14 @@
 学习/工作情况:
 
 - 2020.7 - 现在: 网易有道-语音算法工程师 (主要是语音合成)
+- 2020.4 - 2019.6: 网易有道-语音算法实习生 (主要是语音合成) 
 - 2019.3 - 2019.11: 网易有道-语音算法实习生 (主要是语音识别) 
 - 2018.11 - 2019.3: CVTE中央研究院-nlp实习生 (主要做检索式问答机器人的工作)
 - 2018.3 - 现在: SIGSDS实验室 (主要在任务型对话系统的工作)
 - 2017.3 - 2017.10: 红满堂工作室-web开发
 
 论文经历
-- **Peisong Huang**, Peijie Huang, 有篇关于对话方向在投的会议论文(ICASSP 2021).
+- **Peisong Huang**, Peijie Huang, BERT with Turn Embedding for Multi-Turn Response Selection 有篇关于对话方向在投的会议论文(ICASSP 2021).
 - **Peisong Huang**, Peijie Huang, Wencheng Ai, et al. Latent Topic Attention for Domain Classification. Proceedings of the 20th Annual Conference of the International Speech Communication Association (INTERSPEECH 2019), 2019,  oral.
 - **黄培松**, 黄沛杰, 丁健德, 等. 基于隐含主题协同注意力网络的领域分类方法. 中文信息学报
 - 梁泳诗, 黄沛杰, **黄培松**, 等.基于可靠词汇语义约束的词语向量表达修正研究. 中文信息学报, 2019, 33(1):58-69.  主要思路:是借助外在的词典来解决词向量同义词和反义词在维度上比较相似的问题.
@@ -30,7 +31,8 @@
 工作经历:
 
 - 在网易有道: 
-    - 负责TTS工程化，使用C++将训练好的模型落地(如嵌入式，服务端等场景).
+    - 负责TTS工程化，训练用于落地的TTS模型，并在C++将训练好的模型落地(如嵌入式，服务端等场景).
+    - 参与G2P优化，声学模型优化等工作。
     - 指导实习生搭建对话管理模块.
 
 - 在网易有道实习(kaldi,rasa,hadoop-streaming): 
